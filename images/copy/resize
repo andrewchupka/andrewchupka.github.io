@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in *.png 
+do
+  convert $i -resize 20x20 $i
+done

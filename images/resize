@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in *.png 
+do
+  convert $i -scale 500x500 $i
+done
