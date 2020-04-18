@@ -23,8 +23,8 @@ body {
     border-style: solid;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 50%;
     height: 94%;
 }
@@ -32,4 +32,55 @@ body {
 iframe {
     width: 100%;
     height: 650px;
+}
+
+@media only screen and (max-width: 600px) {
+    #homeGreeting {
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .lead {
+        font-size: 14px;
+    }
+    #resumeIFrame {
+        display: block;
+        border-style: solid;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 90%;
+        height: 94%;
+    }
+    iframe {
+        width: 100%;
+        height: 650px;
+    }
+    .row {
+        padding-top: 3px;
+    }
+    body {
+        font-family: monospace;
+    }
+    .display-4 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    #myTab>* {
+        margin-top: 5px;
+        font-size: 11px;
+    }
+    small {
+        align-items: flex-end;
+        font-size: 12px;
+    }
 }
